@@ -2,6 +2,7 @@
 #### Titanium Axway Suggestions
 As a user types text into TextField - this widget filters the array/results and populates a TableView Overlay
 
+![Demo](demo.gif)
 
 ###### index.xml
 ```xml
