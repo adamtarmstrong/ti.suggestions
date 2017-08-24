@@ -1,0 +1,23 @@
+"TableView":{
+	backgroundColor: "#80FFFFFF",
+	separatorColor: "#33cccccc"
+},
+"TableView[platform=ios]": {
+	style: Ti.UI.iOS.TableViewStyle.PLAIN
+},
+"TableViewRow": {
+	layout: "vertical",
+	backgroundColor: "#00FFFFFF",
+	//TODO:  Report this bug.  These aren't working - had to move into widget.js file and transform on each row PUSH
+	//selectedBackgroundColor: "#00FFFFFF",
+	//font: { fontSize: 12 },
+	//color: "#545451"
+},
+"TableViewRow[platform=ios]": {
+	selectedBackgroundImage: WPATH('1x1.png'),
+	selectionStyle: Ti.UI.iOS.TableViewCellSelectionStyle.NONE
+},
+"TableViewRow[platform=android]":{
+	backgroundSelectedImage: WPATH('1x1.png'),
+	scrollType: "vertical"
+}
